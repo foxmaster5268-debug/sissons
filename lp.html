@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Дз</title>
+</head>
+<body>
+
+<h1 id="sissons" >літо</h1>
+<p id="text" >Літо — це найтепліша та найяскравіша пора року, коли природа буяє зеленню, а сонце щедро дарує своє тепло. У цей час завжди приємно насолоджуватися відпочинком на свіжому повітрі та яскравими моментами.
+
+</p>
+<img id="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiGxL5tNk3rI2am9cQMJ0Ki2tgVz2i41lBUWWeV9xZUQ&s=10">
+<div class="but">
+<button onclick="winter()" >зима</button>
+<button onclick="spring()" >весна</button>
+<button onclick="outem()" >осінь</button>
+<button onclick="summer()" >літо</button>
+</div>
+<script>
+function winter(){
+document.getElementById("sissons").innerHTML = "зима" ;
+document.getElementById("text").innerHTML = "Зима — це найхолодніша пора року, коли часто випадає сніг і земля вкривається білою ковдрою. У цей час діти люблять ліпити сніговиків, кататися на санчатах і гратися в сніжки." ;
+document.body.style.backgroundColor="lightblue" ;
+document.getElementById("photo").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Ti6E4S-UvNTC-t86mLBcvt0vuYWz5yGVZAK0_wl0uA&s=10" ;
+}
+function spring(){
+document.getElementById("sissons").innerHTML = "весна" ;
+document.getElementById("text").innerHTML = "Весна — це пора року, коли природа прокидається після зими. Розквітають квіти, зеленіє трава, а птахи повертаються з теплих країв." ;
+document.body.style.backgroundColor="lightgreen" ;
+document.getElementById("photo").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo70dtxvbJR_t8wlxZyo1gdZd7LrnfYyH-5CEXbjB6cA&s=10" ;
+}
+function outem(){
+document.getElementById("sissons").innerHTML = "осінь" ;
+document.getElementById("text").innerHTML = "Осінь — це пора року, коли листя на деревах жовтіє, червоніє й опадає. У цей час часто йдуть дощі, а повітря стає прохолоднішим." ;
+document.body.style.backgroundColor="orange" ;
+document.getElementById("photo").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJq6wbsywj385TJmLGfMwVNiFee0p9q0XfSPP9qIz0A&s=10" ;
+}
+function summer(){
+document.getElementById("sissons").innerHTML = "літо" ;
+document.getElementById("text").innerHTML = "Літо — це найтепліша та найяскравіша пора року, коли природа буяє зеленню, а сонце щедро дарує своє тепло. У цей час завжди приємно насолоджуватися відпочинком на свіжому повітрі та яскравими моментами." ;
+document.body.style.backgroundColor="yellow" ;
+document.getElementById("photo").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiGxL5tNk3rI2am9cQMJ0Ki2tgVz2i41lBUWWeV9xZUQ&s=10" ;
+}
+document.body.style.backgroundColor="yellow" ;
+</script>
+
+</body>
+
+</html>
